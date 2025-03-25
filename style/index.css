@@ -69,3 +69,9 @@ section{
     cursor: pointer;
     display: none;
 }
+/*home section*/
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
