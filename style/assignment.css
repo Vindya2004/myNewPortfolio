@@ -8,3 +8,9 @@
     scroll-behavior: smooth;
     font-family: -apple-system,sans-serif;
 }
+:root{
+    --bg-color:#111111;
+    --snd-bg-color:#151515;
+    --text-color:white;
+    --main-color:#007f73;
+}
