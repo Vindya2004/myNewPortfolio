@@ -190,3 +190,8 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+/*My Skill Section*/
+.skill{
+    min-height: 60vh;
+    padding: 10rem 9% 2rem;
+}
