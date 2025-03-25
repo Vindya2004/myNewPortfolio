@@ -430,3 +430,10 @@ span{
 .contact{
     background: var(--bg-color);
 }
+.contact .heading{
+    text-align: center;
+}
+.contact h2{
+    margin-bottom: 3rem;
+    color: var(--main-color);
+}
