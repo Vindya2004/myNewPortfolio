@@ -195,3 +195,11 @@ span{
     min-height: 60vh;
     padding: 10rem 9% 2rem;
 }
+.skill h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.skill-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
