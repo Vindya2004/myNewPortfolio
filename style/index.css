@@ -172,3 +172,21 @@ span{
     cursor: pointer;
     transition: 0.4s ease;
 }
+.heading{
+    font-size: 6rem;
+    text-align: left;
+}
+.about-content{
+    padding: 0 4rem;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3{
+    font-size: 3rem;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
