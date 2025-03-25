@@ -426,4 +426,7 @@ span{
     font-size: 2rem;
     color: var(--snd-bg-color);
 }
-
+/*contact section*/
+.contact{
+    background: var(--bg-color);
+}
