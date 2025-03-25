@@ -203,3 +203,30 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+.skill .cells{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill .cells .cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+    height: 100px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 1.5px solid #d3d3d3;
+    border-radius: 5px;
+}
+.skill .cells .cell img{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.skill .cells .cell .span-skill{
+    font-size: 18px;
+    color: white;
+}
