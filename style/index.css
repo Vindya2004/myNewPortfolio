@@ -318,3 +318,8 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
+/*Service section*/
+.service h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
