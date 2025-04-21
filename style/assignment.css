@@ -56,3 +56,65 @@
     color: white;
     font-weight: bold;
 }
+
+
+/* 1. Large screens (desktops >1200px) */
+@media (min-width: 1201px) {
+    .assignment-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 2. Medium screens (tablets and small laptops: 768px–1200px) */
+@media (max-width: 1200px) {
+    .assignment h2 {
+        font-size: 2.8rem;
+    }
+
+    .assignment-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+/* 3. Small screens (phones and small tablets: 480px–767px) */
+@media (max-width: 767px) {
+    .assignment h2 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .assignment-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .assignment-layer h4 {
+        font-size: 2rem;
+    }
+
+    .assignment-layer .btn {
+        padding: 0.5rem 1.2rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* 4. Extra small screens (very small devices: <480px) */
+@media (max-width: 479px) {
+    .assignment h2 {
+        font-size: 2.2rem;
+    }
+
+    .assignment-layer h4 {
+        font-size: 1.8rem;
+    }
+
+    .assignment-layer {
+        padding: 0 1.5rem;
+    }
+
+    .assignment-layer .btn {
+        font-size: 1.4rem;
+        padding: 0.4rem 1rem;
+    }
+}
