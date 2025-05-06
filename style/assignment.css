@@ -1,5 +1,5 @@
 .assignment{
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
 }
 .assignment h2{
     text-align: center;
@@ -55,6 +55,19 @@
     margin: .3rem 0 1rem;
     color: white;
     font-weight: bold;
+}
+.assignment-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background: var(--text-color);
+    border-radius: 50%;
+}
+.assignment-layer a i{
+    font-size: 2rem;
+    color: var(--snd-bg-color);
 }
 
 
